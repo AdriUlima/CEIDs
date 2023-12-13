@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deee7f073a43801429912cf45c150a8e, type: 3}
+  m_Name: Tanque_Personaje
+  m_EditorClassIdentifier: 
+  nombre: Tanque
+  sprite: {fileID: 0}
+  hp: 2000
+  mov: 2
+  atk1: {fileID: 11400000, guid: eafc13030b175a743bda1f96cbd8479e, type: 2}
+  atk2: {fileID: 11400000, guid: 3a982249c185f30428f0f30452a45a51, type: 2}
+  atk3: {fileID: 0}

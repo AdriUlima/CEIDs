@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombre: Arbusto
   sprite: {fileID: 21300000, guid: db20f4f16443b8e4087f720193e83808, type: 3}
-  probabilidad: 25
+  probabilidad: 20

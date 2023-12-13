@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deee7f073a43801429912cf45c150a8e, type: 3}
+  m_Name: Arquero_Personaje
+  m_EditorClassIdentifier: 
+  nombre: Arquero
+  sprite: {fileID: 0}
+  hp: 400
+  mov: 5
+  atk1: {fileID: 11400000, guid: 003288294a349734097850d0a3cb493d, type: 2}
+  atk2: {fileID: 11400000, guid: c55c49bfe960f5e44a68a1a75ae2af69, type: 2}
+  atk3: {fileID: 11400000, guid: 8acc87b56fc33724aa6e078f1849340c, type: 2}
