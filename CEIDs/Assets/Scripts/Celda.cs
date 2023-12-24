@@ -1,6 +1,5 @@
 using UnityEngine;
 
-
 public class Celda : MonoBehaviour
 {
     private GameManager gameManager;
@@ -10,9 +9,9 @@ public class Celda : MonoBehaviour
     {
         gameManager = GameManager.Instance;
         int suma=0;
-        for(int i = 0; i < gameManager.TipoCeldas.Length; i++)
+        for(int i = 0; i < gameManager.TiposCelda.Length; i++)
         {
-            suma += gameManager.TipoCeldas[i].probabilidad;
+            suma += gameManager.TiposCelda[i].probabilidad;
         }
         if (suma != 100)
         {
@@ -21,12 +20,12 @@ public class Celda : MonoBehaviour
         }
         int ran = Random.Range(1,101);
         suma = 0;
-        for (int i = 0; i < gameManager.TipoCeldas.Length; i++)
+        for (int i = 0; i < gameManager.TiposCelda.Length; i++)
         {
-            suma += gameManager.TipoCeldas[i].probabilidad;
+            suma += gameManager.TiposCelda[i].probabilidad;
             if (ran <= suma)
             {
-                tipoCeldaSelected = gameManager.TipoCeldas[i];
+                tipoCeldaSelected = gameManager.TiposCelda[i];
                 transform.Find("Tipo").GetComponent<SpriteRenderer>().sprite = tipoCeldaSelected.sprite;
                 break;
             }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Arquero_Personaje
   m_EditorClassIdentifier: 
   nombre: Arquero
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: dace4a3c780465d428d9d8daae318a84, type: 3}
   hp: 400
   mov: 5
   atk1: {fileID: 11400000, guid: 003288294a349734097850d0a3cb493d, type: 2}

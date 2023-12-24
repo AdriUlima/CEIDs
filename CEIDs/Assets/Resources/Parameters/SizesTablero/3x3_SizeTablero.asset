@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8286808c95584a849bb04f20ffccbc2e, type: 3}
-  m_Name: 3x3_Tablero
+  m_Name: 3x3_SizeTablero
   m_EditorClassIdentifier: 
   horizontal: 3
   vertical: 3

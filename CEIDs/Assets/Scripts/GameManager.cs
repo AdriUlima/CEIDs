@@ -4,8 +4,8 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     public static GameManager Instance { get { return instance; } }
-    public SOTablero[] SizeTablero { private set; get; }
-    public SOCelda[] TipoCeldas { private set; get; }
+    public SOTablero[] SizesTablero { private set; get; }
+    public SOCelda[] TiposCelda { private set; get; }
 
     void Awake()
     {
@@ -17,8 +17,8 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(this.gameObject);
-            SizeTablero = Resources.LoadAll<SOTablero>("Parameters/Tablero");
-            TipoCeldas = Resources.LoadAll<SOCelda>("Parameters/TipoCeldas");
+            SizesTablero = Resources.LoadAll<SOTablero>("Parameters/SizesTablero");
+            TiposCelda = Resources.LoadAll<SOCelda>("Parameters/TiposCelda");
         }
     }
 
