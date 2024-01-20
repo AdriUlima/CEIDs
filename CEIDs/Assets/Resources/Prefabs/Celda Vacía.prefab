@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8044136029765796139, guid: aa62f38030c26f54cbd0ade8d18c2397, type: 3}
       propertyPath: m_Name
-      value: Celda Variant
+      value: "Celda Vac\xEDa"
       objectReference: {fileID: 0}
     - target: {fileID: 9118767399306173825, guid: aa62f38030c26f54cbd0ade8d18c2397, type: 3}
       propertyPath: m_Sprite
@@ -62,7 +62,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9118767399306173825, guid: aa62f38030c26f54cbd0ade8d18c2397, type: 3}
-    m_RemovedGameObjects: []
+    - {fileID: 7372662861798561210, guid: aa62f38030c26f54cbd0ade8d18c2397, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 6508474792007481671, guid: aa62f38030c26f54cbd0ade8d18c2397, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8044136029765796139, guid: aa62f38030c26f54cbd0ade8d18c2397, type: 3}
@@ -117,5 +119,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.9, y: 1.9}
   m_EdgeRadius: 0
