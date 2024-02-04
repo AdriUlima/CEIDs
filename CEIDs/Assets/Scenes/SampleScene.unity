@@ -170,8 +170,8 @@ MonoBehaviour:
   celdaPrefab: {fileID: 7372662861798561210, guid: aa62f38030c26f54cbd0ade8d18c2397, type: 3}
   celdaVaciaPrefab: {fileID: 6644108131030326126, guid: 0a8c8772bc2dc7c44adf0f7b11f299cb, type: 3}
   personaje: {fileID: 9036946392764126957, guid: 8828b5d43f5d5e445820a42c3a73ea5a, type: 3}
-  nJugadores: 2
-  nPersJug: 3
+  nJugadores: 1
+  nPersJug: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

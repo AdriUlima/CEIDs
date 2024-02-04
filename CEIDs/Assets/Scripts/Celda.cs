@@ -3,11 +3,13 @@ using UnityEngine;
 public class Celda : MonoBehaviour
 {
     private GameManager gameManager;
+    private SceneManager sceneManager;
     private SOCelda tipoCeldaSelected;
 
     void Start()
     {
         gameManager = GameManager.Instance;
+        sceneManager = SceneManager.Instance;
         int suma=0;
         for(int i = 0; i < gameManager.TiposCelda.Length; i++)
         {
@@ -30,6 +32,11 @@ public class Celda : MonoBehaviour
                 break;
             }
         }
+    }
+
+    public Celda CeldaIzquierda()
+    {
+        return sceneManager.CeldaPos(this, Vector2Int.left);
     }
 
 }

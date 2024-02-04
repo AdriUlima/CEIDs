@@ -78,11 +78,37 @@ public class SceneManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             currentId++;
-            if (currentId > 2)
+            if (currentId > nPersJug)
             {
                 currentId = 1;
             }
+            CambiarPersonaje();
         }
     }
+
+    public Celda CeldaPos(Celda celda, Vector2Int offset)
+    {
+        for(int i=0;i<tableroSelected.horizontal;i++)
+        {
+            for(int j = 0; j < tableroSelected.vertical; j++)
+            {
+                if (tablero[i][j] == celda)
+                {
+                    if (i + offset.x >= 0 && i + offset.x < tableroSelected.horizontal && j + offset.y >=0 && j + offset.y < tableroSelected.vertical)
+                    {
+                        return tablero[i + offset.x][j + offset.y];
+                    }
+                    else
+                    {
+                        return null;
+                    }
+                }
+            }
+        }
+        return null;
+    }
+
+    public delegate void Delegado();
+    public event Delegado CambiarPersonaje;
 
 }
